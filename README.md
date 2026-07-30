@@ -4,8 +4,6 @@
 
 This project demonstrates how to visualize monthly expenses using Python, Pandas, and Matplotlib. Sample expense data is stored in a Pandas DataFrame and displayed as a horizontal bar chart. The visualization compares the amount spent across different expense categories while demonstrating basic data visualization techniques.
 
----
-
 ## Learning Objectives
 
 By completing this practice activity, you will learn how to:
@@ -17,16 +15,12 @@ By completing this practice activity, you will learn how to:
 * Add chart titles and axis labels.
 * Improve chart readability with grid lines.
 
----
-
 ## Technologies Used
 
 * Python 3
 * Pandas
 * Matplotlib
 * uv (Python package and project manager)
-
----
 
 ## Project Structure
 
@@ -38,8 +32,6 @@ PA-386.6.1-Analyzing-Monthly-Expenses/
 ├── pyproject.toml
 └── uv.lock
 ```
-
----
 
 ## Project Setup
 
@@ -84,8 +76,6 @@ uv add mysql-connector-python
 
 > **Note:** Only **Pandas** and **Matplotlib** are required for this project.
 
----
-
 ## Running the Program
 
 Run the program from the project directory:
@@ -93,8 +83,6 @@ Run the program from the project directory:
 ```bash
 uv run monthly_expenses.py
 ```
-
----
 
 ## Program Description
 
@@ -110,8 +98,6 @@ The program performs the following steps:
 8. Displays a light grid along the x-axis.
 9. Displays the completed visualization.
 
----
-
 ## Sample Data
 
 | Expense Category | Amount Spent ($) |
@@ -121,8 +107,6 @@ The program performs the following steps:
 | Internet         |               75 |
 | Transportation   |              180 |
 | Entertainment    |              220 |
-
----
 
 ## Expected Output
 
@@ -134,13 +118,9 @@ The program generates a horizontal bar chart titled **Monthly Expenses Distribut
 * Chart title and axis labels.
 * A light x-axis grid for improved readability.
 
----
-
 ## Bonus Enhancement
 
 As part of the bonus portion of the assignment, this project uses Matplotlib's **Pastel1** color palette to automatically assign a different pastel color to each expense category. This improves the chart's visual appearance while making each bar easier to distinguish.
-
----
 
 ## Concepts Demonstrated
 
@@ -153,14 +133,10 @@ As part of the bonus portion of the assignment, this project uses Matplotlib's *
 * Grid customization
 * Chart titles and axis labels
 
----
-
 ## Author
 
 **Roger Cruz**
 
----
-
 ## Assignment
 
-**PA - Practice Activity – 386.6.1 – Analyzing Monthly Expenses**
+**PA – Practice Activity – 386.6.1 – Analyzing Monthly Expenses**
